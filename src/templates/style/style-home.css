@@ -1,0 +1,154 @@
+.search-container {
+    text-align: center;
+    padding: 27px 0;
+    position: relative;
+}
+.search-result {
+    position: absolute;
+    left: 41%;
+}
+.res {
+    width: 151px;
+    text-align: left;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 10px;
+    background: white;
+}
+.res:hover {
+    background: gray;
+}
+#inputToList {
+    padding: 10px;
+    border-radius: 5px;
+}
+.weather-container .top-text{
+    margin-top: 0;
+    text-align: center;
+}
+.temp-home-number{
+    font-size: 30px;
+    text-align: center;
+}
+.weather-container {
+    display: flex;
+    border: 1px solid black;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.multiply-weather{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.top-menuInfo{
+    display: flex;
+    width: 100%;
+    place-content: space-between;
+    padding: 20px 0;
+}
+.city-name-home{
+    margin-top: -33px;
+    padding-left: 4px;
+}
+.country-name-home{
+    margin-top: -25px;
+    padding-left: 4px;
+
+}
+.temp-low-home{
+    margin-top: -22px;
+    margin-left: 2px;
+}
+.error-field {
+    margin-right: 9%;
+    margin-bottom: 15px;
+    color: red;
+}
+/* red heart shape */
+.heart {
+    background-color: red;
+    display: inline-block;
+    height: 10px;
+    margin: 0px 10px;
+    position: relative;
+    top: 0;
+    transform: rotate(
+-45deg);
+    width: 10px;
+}
+.heart:before {
+    top: -7px;
+    left: 0;
+}
+.heart:before, .heart:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+}
+.heart:after {
+    left: 7px;
+    top: 0px;
+}
+.heart:before, .heart:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+}
+.search-btn{
+    margin-left: 10px;
+        padding: 7px;
+        border-radius: 10px;
+        background: black;
+        color: white;
+}
+/* white heart shape */
+.heartWhite {
+    background-color: white;
+    border: 1px solid black;
+    display: inline-block;
+    height: 10px;
+    margin: 0px 10px;
+    position: relative;
+    top: 0;
+    transform: rotate(
+-45deg);
+    width: 10px;
+}
+.heartWhite:before {
+    top: -7px;
+    left: 0;
+}
+.heartWhite:before, .heartWhite:after {
+    content: "";
+    background-color: white;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+}
+.heartWhite:after {
+    left: 7px;
+    top: 0px;
+}
+.heartWhite:before, .heartWhite:after {
+    content: "";
+    background-color: white;
+    border-top: 1px solid black;
+    border-right: 1px solid;
+    border-radius: 50%;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+}
+.favorite-btn{
+    display: flex;
+    align-items: center;
+    margin-bottom: auto;
+}

@@ -1,0 +1,88 @@
+/* this designs the crosss icon */
+.cross-sign {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+.cross-sign:hover {
+    opacity: 1;
+}
+.cross-sign:before, .cross-sign:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+}
+.bold-today{
+    font-weight: 700;
+
+}
+.cross-sign:before {
+    transform: rotate(45deg);
+}
+.cross-sign:after {
+    transform: rotate(-45deg);
+}
+.single-weather-favorites {
+    position: relative;
+    width: 100%;
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin: 20px 290px;
+    display: flex;
+    align-items: center;
+    place-content: space-around;
+}
+.top-text{
+    margin-top: 40px;
+    color: black;
+}
+.bottom-text-favorites {
+    align-items: center;
+}
+.city-name-favorites{
+    font-weight: 700;
+    font-size: 22px;
+}
+.city-name-favorites:hover{
+    font-size: 20px;
+}
+.single-weather-favorites-grid{
+    position: relative;
+    width: 15%;
+    border: 1px solid black;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    place-content: space-around;
+    margin: 10px 30px;
+}
+.grid-list{
+    padding: 5px;
+}
+.grid-list.selected{ 
+    background-color: gray;
+}
+.grid-list img {
+    max-width: 17px;}
+
+.grid-list-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border: 1px solid;
+    width: 7%;
+    justify-content: space-around;
+    padding: 3px 3px;
+    margin-bottom: 40px;
+}
+.text-center{
+    text-align: -webkit-right;
+    margin-right: 20px;
+}
