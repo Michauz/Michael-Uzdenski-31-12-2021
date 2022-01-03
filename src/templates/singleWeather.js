@@ -23,6 +23,7 @@ function SingleWeather( {cityName,celsius,setCityLists,cityList,displayedCity,se
           }
     }
     // fetches the current weather of the city
+    var x = 5;
     async function fetchWeather(city) {
         try {
             fetch('https://api.weatherapi.com/v1/current.json?key='+apiKey+'&q='+city+'&aqi=no')
