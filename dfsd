@@ -1,0 +1,10 @@
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.upstream.url=https://github.com/Michauz/Michael-Uzdenski-31-12-2021.git
+remote.upstream.fetch=+refs/heads/*:refs/remotes/upstream/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+remote.origin.url=https://github.com/Michauz/Michael-Uzdenski-31-12-2021
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*

@@ -25,7 +25,7 @@ function SingleWeather( {cityName,celsius,setCityLists,cityList,displayedCity,se
     // fetches the current weather of the city
     async function fetchWeather(city) {
         try {
-            fetch('http://api.weatherapi.com/v1/current.json?key='+apiKey+'&q='+city+'&aqi=no')
+            fetch('https://api.weatherapi.com/v1/current.json?key='+apiKey+'&q='+city+'&aqi=no')
             .then(res => res.json())
             .then(
                 (result) => {

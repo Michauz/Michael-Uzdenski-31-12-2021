@@ -44,7 +44,7 @@ function Home({celsius,cityName,cityLists,setCityLists,city,setCity,setSelected}
     // handles errors
     function chooseCity(city){
         try {
-            fetch('http://api.weatherapi.com/v1/forecast.json?key='+apiKey+'&days=5&q='+city+'&aqi=no')
+            fetch('https://api.weatherapi.com/v1/forecast.json?key='+apiKey+'&days=5&q='+city+'&aqi=no')
             .then(res => res.json())
             .then(
                 (result) => {
@@ -82,7 +82,7 @@ function Home({celsius,cityName,cityLists,setCityLists,city,setCity,setSelected}
     // fetches data for the search results
     function autoSearch(word){
         try {
-            fetch('http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey='+apikeyTwo+'&q='+word)
+            fetch('https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey='+apikeyTwo+'&q='+word)
             .then(res => res.json())
             .then(
                 (result) => {
