@@ -86,3 +86,8 @@
     text-align: -webkit-right;
     margin-right: 20px;
 }
+@media (max-width: 766px) {
+    .grid-list-container{
+        display: none;
+    }
+}

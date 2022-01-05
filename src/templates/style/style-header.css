@@ -23,3 +23,26 @@
 a {
     text-decoration: none;
 }
+.intruduction {
+    /* display: flex; */
+    text-align: center;
+    padding-top: 25px;
+}
+.intro-text {
+    padding: 10px;
+}
+.none-dis{
+    display: none;
+}
+@media (max-width: 766px) {
+    .header-container{
+        display: block;
+    }
+    .app-name {
+        padding: 10px;
+    }
+    .btn-container{
+        margin: 10px;
+    }
+    
+}

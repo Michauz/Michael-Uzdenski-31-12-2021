@@ -152,3 +152,19 @@
     align-items: center;
     margin-bottom: auto;
 }
+@media (max-width: 766px) {
+    .top-menuInfo{
+        display: block;
+    }
+    .multiply-weather{
+        display: block;
+        text-align: center;
+    }
+
+    .single-weather {
+        border-bottom: 1px solid;
+    }
+    .search-result {
+        left: 18%;
+    }
+}
