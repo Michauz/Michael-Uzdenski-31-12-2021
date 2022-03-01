@@ -38,21 +38,6 @@ function App() {
                   </Link>
               </div>
           </div>
-          <div className= {selected!=="favorites" && selected!=='home'?"intruduction":'none-dis' }>
-            
-            <div className= 'intro-text'>
-              Abra home task By: Michael Uzdenski; michauzd@gmail.com
-            </div>
-            <div className="intro-text">
-              Start date: 31/12/2021
-            </div>
-            <div className="intro-text">
-              End date: 05/01/2022
-            </div>
-            <div className="intro-text">
-              Please press the 'home' button to start
-            </div>
-          </div>
           <Routes>
           <Route path="/templates/home" element={<Home celsius={celsius} cityName={displayedCity} cityLists={cityLists} setCityLists={setCityLists} city = {displayedCity} setCity = {setDisplayedCity} setSelected={setSelected}/>}></Route>
             <Route path="/templates/favorites" element={<Favorites celsius={celsius} cityLists={cityLists} setCityLists={setCityLists} displayedCity={displayedCity} setDisplayedCity={setDisplayedCity} selected={selected} setSelected={setSelected} />}></Route>
