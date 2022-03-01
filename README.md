@@ -1,2 +1,1 @@
-# Michael-Uzdenski-31-12-2021
-Abra's home assigment 
+A small task in react that shows the weather and keeps favorites list
