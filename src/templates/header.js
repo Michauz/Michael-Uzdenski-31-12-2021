@@ -5,7 +5,7 @@ function Header({selected}) {
         <div>
             <div className="header-container">
                 <div className="app-name">
-                    Abra Weather Task
+                     Weather Task app
                 </div>
                 <div className="btn-container">
                     <div className="btn"  >
